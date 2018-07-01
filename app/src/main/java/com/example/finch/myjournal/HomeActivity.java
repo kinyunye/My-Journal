@@ -163,9 +163,6 @@ public class HomeActivity extends AppCompatActivity {
             post_date.setText(timestamp);
         }
 
-        public void setTime(String time) {
-            TextView post_time = mView.findViewById(R.id.post_time);
-            post_time.setText(time);
-        }
+
     }
 }
